@@ -48,7 +48,7 @@ Wherein, Case 2 can be simplified and synthesized into:
        /  \
       M2   M3
      / \     \
-M4  M5   M6
+    M4  M5   M6
 ```
 ----
 
