@@ -37,11 +37,12 @@ Case 1: Email Chain
 M1 - M2 - M3
 
 Case 2: Email Tree
+```
 M1
 ├── M2 → M4 
 ├── M2 → M5
 └── M3 → M6
-
+```
 Wherein, Case 2 can be simplified and synthesized into:
 ```
         M1
