@@ -52,6 +52,31 @@ Wherein, Case 2 can be simplified and synthesized into:
      / \     \
     M4  M5   M6
 ```
+
+Thus, the final data format is like:
+```
+[
+    {
+        "message_id": "<aabbcc11$1234abcd$deadbeef$@company-a.com>",
+        "references": "<202601010800000000000@company-b.com>",
+        "in_reply_to": "<202601010800000000000@company-b.com>",
+        "uid": "xXxXxXxXxXxXxXxXxXxXxx",
+        "subject": "Urgently need ....",
+        "chain": [
+            {
+                "uid": 1,
+                "layer": 1,
+                "sender": "someone_email@xxx.com",
+                "time": "2026-05-12 09:59:26",
+                "to": "<someone_email@xxx.com>",
+                "cc": "<someone_email@xxx.com>",
+                "content": "Hi Reid, ...",
+                "signature": ""
+            },
+],
+]
+```
+
 ----
 
 
