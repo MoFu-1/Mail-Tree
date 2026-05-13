@@ -43,12 +43,13 @@ M1
 └── M3 → M6
 
 Wherein, Case 2 can be simplified and synthesized into:
+```
         M1
        /  \
       M2   M3
      / \     \
 M4  M5   M6
-
+```
 ----
 
 
