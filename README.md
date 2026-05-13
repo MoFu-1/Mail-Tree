@@ -34,8 +34,9 @@ If you rely on email for work, you will inevitably encounter "he-said-she-said" 
 Emails often consist of multiple sub-emails (replies), forming a chain (e.g., `M1 → M2 → M3 → M4`). When different people reply to the same email, branches are created, forming a **tree structure** rather than a simple chain.
 
 Case 1: Email Chain
+```
 M1 - M2 - M3
-
+```
 Case 2: Email Tree
 ```
 M1
